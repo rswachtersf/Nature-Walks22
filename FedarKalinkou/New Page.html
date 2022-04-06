@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor = "orange"
+<div>
+<center>
+<h1>World-Wide Decks</h1>
+
+
+
+</div>
+<h2>Hello World</h2>
+<div align="left" width=20px>text</div>
+<button onclick="showAlert('Hi Fedar')">Alert</button>
+<button onclick="replaceText()">Replace</button>
+<p id="yourtext">Nothing so far</p>
+
+<script type='text/javascript'>
+function showAlert(text) {
+  alert("Omg: " + text);
+};
+function replaceText(value) {
+  document.getElementById('yourtext').innerHTML ="Replaced";
+};
+</script>
+<script>
+    function setText(text = 'Click on me') {
+      document.getElementById("text").innerHTML = text;
+    }
+</script>
+
+<button onclick="setText('GoodBye')" style="background-color: black; color: white;border-radius:7px">Click Me</button>
+<button onclick="setText()" style="background-color: red; color: white;border-radius:7px">Reset</button>
+
+<p id="text">Hello</p>
+
+<div>
+
+<button name="simple_button" type="button">
+Click Me
+
+</button>
+
+<button name="submit_button" type="submit" value="Submit">
+Submit
+</button>
+
+<button name="reset_button" type="reset" value="reset">
+Reset
+</button>
+
+<button autofocus>
+AutoFocus
+</button>
+
+</div>
+
+<button onclick="alert('You Clicked On A Button Omg')">
+Alert
+</button>
+
+
+
+
+
+<html>
